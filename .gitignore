@@ -1,6 +1,5 @@
 
 if gg.PACKAGE ~= "com.wadeeamanvip" then
-  return gg.alert("☆━━☆ ⭕ خاص لمشتركين VIP ⭕ ☆━━☆\n\n☆━━━━━━━━━━━━━━━━━━━━━━━☆\n                      ⭕للشراء التواصل مع : wadeeaman@                   \n☆━━━━━━━━━━━━━━━━━━━━━━━☆")
   end 
 gg.alert[[WELCOME TO WADEE AMAN VIP SCRIPT 
 ══════════════════
