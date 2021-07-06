@@ -1,8 +1,8 @@
 function  HOME0()
 HOME00 = gg.multiChoice({
-           "『 START 』",
-        "『 معلومات السكربت 』",      
-            "『EXIT』",
+      "⚔️ 🇸‌ 🇹‌ 🇦‌ 🇷‌ 🇹‌ ⚔",
+        "🧭 معلومات عن السكربت 🧭",       
+               "Ꭼ𝐗ᏆᎢ",
    
   }, nil, (os.date([[]])))		
   if HOME00== nil then else
