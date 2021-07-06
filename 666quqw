@@ -1,0 +1,60 @@
+function  HOME0()
+HOME00 = gg.multiChoice({
+           "『 START 』",
+        "『 معلومات السكربت 』",      
+            "『EXIT』",
+   
+  }, nil, (os.date([[]])))		
+  if HOME00== nil then else
+  if HOME00[1]  ==  true  then  START()  end
+  if HOME00[2]  ==  true  then  MOLOMAT()  end
+  if HOME00[3]  ==  true  then  EXIT()  end
+  end
+  PUBGMH = -1
+  end
+
+
+
+
+
+function  MOLOMAT()
+MOLOMAT1 = gg.multiChoice({
+      "『BACK』",
+  }, nil, (os.date([[
+    تاريخ انتهاء السكربت : 25/ 12 /2030
+    
+       التاريخ : %d / %m / %Y
+       
+       صنع من قبل : وديع أمان
+       
+     MADE BY : WADEE AMAN
+      ]])))		
+  if MOLOMAT1== nil then else
+  if MOLOMAT1[1]  ==  true  then  HOME0()  end
+  end
+  PUBGMH = -1
+  end
+  
+  
+  
+function  EXIT()
+      print[[𝖲𝖢𝖱𝖨𝖯𝖳 𝖯𝖴𝖡𝖦 𝖬𝖮𝖡𝖨𝖫𝖤 𝟣.𝟦.𝟣
+      MADE BY | WADEE AMAN ]]
+      print(os["date"]("\n∎═════════════════════∎\n⧠ التاريخ : %A %d %B %Y\n⧠ الزمن : %M : %H %p\n∎═════════════════════∎"))
+      gg.skipRestoreState()
+      os.exit()
+      gg.setVisible(true)
+      end
+      while  true  do
+      if  gg.isVisible(true)  then
+      PUBGMH  =  1
+      gg.setVisible(false)
+      end
+      gg.clearResults()
+      if  PUBGMH  ==  1  then
+      HOME0()
+      end
+      end
+    
+  
+  
