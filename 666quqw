@@ -1,24 +1,4 @@
 
-  LHPS = gg.prompt({
-"『WADEE AMAN』"
- }, {}, {})
- if not LHPS then
-  os.exit()
-end
-if LHPS[1] == "WADEE" then
-gg.toast("⚔️🇸‌ 🇹‌ 🇦‌ 🇷‌ 🇹‌ ⚔️")
-else
-gg.alert("☆━☆« ⚠ » Error Password « ⚠ »☆━☆")
-os.exit()
-end
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS | gg.REGION_BAD | gg.REGION_C_ALLOC)
-gg.toast("Expired: 2021 / 7 / 20")
-DateE = "20210720"
-DateToday = os.date("20210620")
-if DateToday >= DateE then
-  print("☆━━━━☆ « 🗓 » Script Expired « 🗓 » ☆━━━━━☆\n\n☆━━━━━━━━━━━━━━━━━━━━━━━☆\n                      ⭕للتجديد التواصل مع : WADEEAMAN\n☆━━━━━━━━━━━━━━━━━━━━━━━☆")
-  return os.exit()
-end
 
 function  HOME0()
 HOME00 = gg.multiChoice({
