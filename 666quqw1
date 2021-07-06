@@ -5,7 +5,11 @@ LHPS = gg.prompt({
   os.exit()
 end
 if LHPS[1] == "WADEE" then
-gg.toast("⚔️🇸‌ 🇹‌ 🇦‌ 🇷‌ 🇹‌ ⚔️")
+gg.toast("
+تاريخ انتهاء السكربت : 2030 / 12 /25 
+gg.sleep(600)
+Expired : 25 / 12 / 2030 ")
+gg.sleep(600)
 else
 gg.alert("☆━☆« ⚠ » Error Password « ⚠ »☆━☆")
 os.exit()
